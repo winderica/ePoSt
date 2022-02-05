@@ -1,0 +1,9 @@
+[workspace]
+
+members = [
+    "bellperson",
+    "post",
+    "blstrs",
+    "ff",
+    "group"
+]
