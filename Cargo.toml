@@ -13,7 +13,7 @@ ark-r1cs-std = { version = "0.4.0", features = ["parallel"] }
 ark-bls12-381 = { version = "0.4.0" }
 ark-ed-on-bls12-381 = { version = "0.4.0" }
 ark-relations = { version = "0.4.0" }
-ark-groth16 = { git = "https://github.com/arkworks-rs/groth16", features = ["parallel", "print-trace"] }
+ark-groth16 = { git = "https://github.com/arkworks-rs/groth16", features = ["parallel", "print-trace"], rev = "765b38b7" }
 rand = { version = "^0.8.0" }
 num = { version = "^0.4.0", features = ["rand", "serde"] }
 num-prime = "0.4.1"
